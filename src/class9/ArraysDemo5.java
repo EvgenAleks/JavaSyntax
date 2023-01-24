@@ -16,7 +16,5 @@ public class ArraysDemo5 {
         for (int x = 0; x< numbers.length; x++) {
             System.out.println(numbers[x]);
         }
-
-
     }
 }

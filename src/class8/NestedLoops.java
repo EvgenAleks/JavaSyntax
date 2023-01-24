@@ -5,7 +5,7 @@ public class NestedLoops {
 
         for (int i = 0; i < 5; i++) { // outer for loop
 
-            for (int j = 0; j < 5; j++) { // inner for loop
+            for (int j = 0; j < 2; j++) { // inner for loop
                 System.out.println("Loop " + j);
 
             }
