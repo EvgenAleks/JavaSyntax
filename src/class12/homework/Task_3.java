@@ -31,9 +31,13 @@ Suggested baby name: MAIEL
         String gender = scan.next();
 
         if (gender.equalsIgnoreCase("boy")) {
-            System.out.println(nameF.substring(0, 3).concat(nameM.substring(nameF.length() - 2)).toUpperCase());
+            String firstHalf = nameF.substring(0,nameF.length()/2);
+            String secondHalf = nameM.substring(nameM.length()/2);
+            System.out.println(firstHalf.concat(secondHalf));
         } else if (gender.equalsIgnoreCase("girl")) {
-            System.out.println(nameM.substring(0, 3).concat(nameF.substring(nameM.length() - 3)).toUpperCase());
+            String firstHalf = nameM.substring(0,nameM.length()/2);
+            String secondHalf = nameF.substring(nameF.length()/2);
+            System.out.println(firstHalf.concat(secondHalf));
         }
     }
 }
