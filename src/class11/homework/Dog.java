@@ -12,8 +12,8 @@ public class Dog {
 
 
     void bark() {
-        System.out.println("Woof!");
+        System.out.println(breed + " can bark.");
     }
-    void howl () { System.out.println("The dog is howling.");
+    void howl () { System.out.println(breed + " can howl.");
     }
 }
