@@ -1,6 +1,4 @@
-package class19_1;
-
-import class18.homework.TeacherII;
+package class20;
 
 /*public class SeleniumTeacher extends TeacherII {
 

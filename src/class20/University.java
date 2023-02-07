@@ -1,4 +1,4 @@
-package class19_1;
+package class20;
 
 /*import class19.JavaTeacher;
 
