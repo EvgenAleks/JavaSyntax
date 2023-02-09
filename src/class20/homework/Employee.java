@@ -46,7 +46,7 @@ class FullTimeEmployee extends Employee {
 
         void testerInfo() {
             System.out.println("Name: " + name + " Age: " + age + " Department: " + department
-                    + " Experience in years: " + experience + " Position " + qA);
+                    + " Experience in years: " + experience + " Position: " + qA);
         }
     }
 
