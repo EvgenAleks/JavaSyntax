@@ -12,6 +12,7 @@ public class Shape {
         this.radius = radius;
     }
 }
+
 class Circle extends Shape {
     static double pI;
 
@@ -20,8 +21,8 @@ class Circle extends Shape {
         this.pI = pI;
     }
 
-     double getArea() {
-            return (super.radius * super.radius) * pI;
-        }
+    double getArea() {
+        return (super.radius * super.radius) * pI;
     }
+}
 
