@@ -23,7 +23,7 @@ class ChromeDriver implements RemoteWebDriver {
 
     @Override
     public void open() {
-
+        System.out.println("Open Chrome");
     }
 
     @Override
