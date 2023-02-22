@@ -9,7 +9,7 @@ public class WebDriverTest {
         for (RemoteWebDriver w:wd) {
             w.open();
             w.close();
-            w.getTitle();
+            System.out.println(w.getTitle());
             w.getScreenshot();
             w.navigate();
         }
