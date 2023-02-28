@@ -2,7 +2,6 @@ package class29;
 
 public interface WebDriver {
 
-
 }
 
 interface ScreenShot {

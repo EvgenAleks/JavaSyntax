@@ -1,11 +1,8 @@
 package class29;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
 
-public class SetsDemo1 {
+public class SetDemo1 {
 
     public static void main(String[] args) {
 
