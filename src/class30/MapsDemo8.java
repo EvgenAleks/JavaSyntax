@@ -3,9 +3,10 @@ package class30;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MapsDemo9 {
+public class MapsDemo8 {
+
     public static void main(String[] args) {
-          /*
+        /*
         Create a map of countries with its capital that will store countries in alphabetical order.
 Print all keys and values from a country map using for each loop and iterator.
 Print all values from a country map using for each loop and iterator.
@@ -17,18 +18,22 @@ Print all values from a country map using for each loop and iterator.
         countries.put("India", "New Delhi");
         countries.put("France", "Paris");
 
-        var values = countries.values();
-        for (var value : values
+        //Set<Map.Entry<String,String>> entrySet=countries.entrySet();
+        var entrySet=countries.entrySet();
+        for (var entry:entrySet
         ) {
-            System.out.println(value);
+            System.out.println(entry.getKey()+" = "+entry.getValue());
         }
 
-        var iterator = countries.values().iterator();
-        while (iterator.hasNext()) {
-
-            var value = iterator.next();
-            System.out.println(value);
-        }
-
+//        var iterator=countries.entrySet().iterator();
+//
+//        while (iterator.hasNext()){
+//
+//            var entry=iterator.next();
+//            System.out.println(entry.getKey()+" "+ entry.getValue());
+//        }
     }
 }
+
+
+
